@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Myriad Pro Regular';
+
+}
+.side-bar {
+
+    /* background-color:#96c3ec ; */
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width:250px;
+    height:720px;
+    padding: 10px;
+    
+}
+.side-bar h1{
+    text-align: center;
+    color:#1b50ab;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.side-bar h3{
+    color:gray;
+    gap:1px;
+     margin: 5px;
+    padding: 5px;
+    line-height: 5rem;
+
+}
+.side-bar span{
+    color :white;
+}
+
+.row1{
+    list-style-type: none;
+    font-size: x-large;
+    
+}
+#col1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    line-height: 15px;
+
+
+}
+#col11{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    line-height: 15px;
+    left: 20px;
+
+}
+#col2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     margin: 5px;
+    line-height: 2rem;
+    position: relative;
+    bottom: 20px;
+    font-size: x-large;
+
+}
+#footer{
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    font-size: x-large;
+
+}
+#footer h3{
+    position: relative;
+    bottom: 55px;
+}
+.row2{
+    list-style-type: none;
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#images{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 55px;
+    left: 20px;
+    
+}

@@ -1,0 +1,63 @@
+.weekly-chart-container {
+  background-color: #fff;
+  padding: 10px;
+  border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 43px;
+}
+
+.chart-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e2e52;
+  margin-bottom: 8px;
+}
+
+.chart-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+}
+
+.bar-background {
+  height: 150px;
+  width: 100%;
+  background: #e6ecfa;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.bar-fill {
+  width: 100%;
+  background-color: #4e5df1;
+  border-radius: 10px 10px 0 0;
+  transition: height 0.3s ease;
+}
+
+.bar-label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-center{
+ /* background-color:#96c3ec ; */
+ background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:450px;
+    height:720px;
+    padding: 10px;
+    
+}

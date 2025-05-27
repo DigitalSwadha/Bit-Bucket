@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    
+}
+.searchbar {
+     border: 2px solid gray;
+     margin-top: 10px;
+     display: flex;
+     flex-direction:row;
+     justify-content: space-between;
+     width: 600px;
+     border-radius: 20px;
+     padding: 5px;
+}
+#para{
+  position: relative;
+  right:200px;
+  font-size: large;
+  color: rgb(71, 71, 71);
+  width: 30px;
+  height: 30px;
+  text-align: justify;
+  top: 5px;
+}
+#img1,#img2{
+    width: 30px;
+    height: 30px;
+}
+
+.dash{
+     display: flex;
+     flex-direction: column;
+     font-family:'times new roman','times','serif'; ;
+     margin-top: 10px;
+     color: rgb(12, 54, 181)
+     
+     
+}
+.card1{
+     border:none;
+     /* background-color:white; */
+     padding: 10px;
+     border-radius: 10px;
+     width: 300px;
+     height: 400px;
+     margin: 20px;
+     
+}
+.card1 img{
+     margin: 5px;
+     padding: 5px;
+     width: 270px;
+     height: 370px;
+     border-radius: 10px;
+
+
+}
+.layout{
+    display: flex;
+     flex-direction: column;
+     display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    bottom: 500px;
+    gap:10px;
+   
+   
+    
+   
+     
+}
+.card2{
+     width: 250px;
+     height:100px;
+     background-color:whitesmoke;
+      border-radius: 10px;
+     
+}
+ .card-header{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 5px;
+     
+ }
+ .icon{
+     width: 35px;
+     height: 35px;
+     object-fit: contain;
+ }
+ .card-header h3{
+     margin: 0;
+     font-size: 20px;
+     color: #333;
+ }
+ .Date{
+     color: #888;
+     font-size: 14px;
+     margin: 5px 0 10px;
+ }
+.progress-bar {
+     background-color: #e0e0e0;
+     height: 10px;
+     border-radius: 10px;
+     overflow: hidden;
+}
+.progress{
+     height: 100%;
+     border-radius: 10px;
+     transition: width 0.3s ease;
+
+}
+.red{
+     background-color: #C0392B;
+}
+.green{
+     background-color: #1ABC9C;
+}
+.orange{
+     background-color: #E67E22;
+}
+.card3{
+    width: 250px;
+     height:100px;
+     background-color:whitesmoke;
+      border-radius: 10px;
+}
+.card4{
+   width: 250px;
+     height:100px;
+     background-color:whitesmoke;
+      border-radius: 10px;
+}
+.Details{
+        
+        background-color:whitesmoke;
+        position: relative;
+        bottom: 370px;
+        width: 411px;
+        height:175px;
+        margin: 18px;;
+        border-radius: 10px;
+        display: flex;
+        flex-direction:row;
+        right: 30px;
+}
+.data{
+    background-color:whitesmoke;
+    width: 255px;
+    height: 317px;
+    position: relative;
+    bottom: 720px;
+    left: 358px;
+    border-radius: 15px;
+}
+
